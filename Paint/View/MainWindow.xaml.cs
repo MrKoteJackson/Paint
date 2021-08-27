@@ -22,10 +22,13 @@ namespace Paint
     {
 
         private Point currentPoint = new Point();
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
+
 
         private void Drawing_MouseDown(object sender, MouseButtonEventArgs e)
         {

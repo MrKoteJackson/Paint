@@ -21,10 +21,10 @@
                 <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">Tools</TextBlock>
                 <Border Background="White" BorderBrush="LightGray" BorderThickness="1" HorizontalAlignment="Center" Margin="0 10 0 0">
                     <WrapPanel Orientation="Vertical">
-                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
+                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="1">1</Button>
+                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="2">2</Button>
+                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="3">3</Button>
+                        <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="4">4</Button>
                     </WrapPanel>
                 </Border>
             </Grid>
@@ -37,10 +37,10 @@
                     <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">Colors</TextBlock>
                     <Border Background="White" BorderBrush="LightGray" BorderThickness="1" HorizontalAlignment="Center" Margin="0 10 0 0">
                         <WrapPanel Orientation="Vertical">
-                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
-                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent">1</Button>
+                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="1">1</Button>
+                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="2">2</Button>
+                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="3">3</Button>
+                            <Button Width="24" Height="24" BorderThickness="0" Background="Transparent" Tag="4">4</Button>
                         </WrapPanel>
                     </Border>
                 </Grid>
